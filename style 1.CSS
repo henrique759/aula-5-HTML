@@ -1,0 +1,42 @@
+/* Importante: Adicione ao seu arquivo CSS */
+
+/* Estilos de Corpo e Reset Básico */
+inde
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    width: 50%;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo do Container Principal do Cartão */
+.card-perfil {
+    width: 100%;
+    max-width: 350px; /* Largura máxima para um cartão compacto */
+    
+    background-color: #ffffff; /* Fundo branco para o cartão (o "quadrado branco") */
+    
+    border-radius: 15px; /* Bordas arredondadas (opcional, mas recomendado) */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Sombra para dar profundidade */
+    padding: 25px; /* Espaçamento interno */
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+    
+
